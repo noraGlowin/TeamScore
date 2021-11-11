@@ -8,12 +8,12 @@ class TeamScore : ViewModel() {
         get() = _score
 
     fun sum1 ():Int{
-        _score=_score+1
+        _score= _score+1
         return _score
     }
 
     fun subtract ():Int{
-        _score=_score+2
+        _score=_score-2
         return _score
     }
     fun sum4 ():Int{
